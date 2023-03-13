@@ -8,27 +8,57 @@
 body {
   background-color: var(--hero-text);
   color: var(--primary-text-color);
+  font-family: "roboto", sans-serif;
+  color: var(--title-text-color);
 }
 ul {
   list-style: none;
 }
 
-/* Site nav */
+/* Header */
+
 .logo {
   color: var(--accent-color);
+  font-family: "Raleway";
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1, 17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  flex: none;
 }
 .logo.studio {
   color: var(--primary-text-color);
+  font-family: "Raleway";
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1, 17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  flex: none;
 }
 .site-nav .link {
   color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1, 5;
+  letter-spacing: 0.02em;
+  flex: none;
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
-  color: var(--accent-color);
+  color: #404bbf;
 }
 .site-nav .link.current {
-  color: var(--accent-color);
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1, 5;
+  letter-spacing: 0.02em;
+  flex: none;
+}
+.header-address {
+  font-style: normal;
 }
 
 /* button */
@@ -40,4 +70,64 @@ ul {
 .button {
   background-color: #f4f4fd;
   color: var(--accent-color);
+  font-family: "roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+.button .link:hover,
+.button .link:focus {
+  color: #404bbf;
+}
+
+/* Portfolio */
+.works-link {
+  text-decoration: none;
+}
+.works-item-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+.works-item-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--title-text-color);
+}
+
+/* Footer */
+.footer {
+  background-color: var(--primary-text-color);
+}
+.footer-logo {
+  font-family: "Raleway";
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--accent-color);
+}
+.footer-link {
+  text-decoration: none;
+}
+.footer-logo-studio {
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #f4f4fd;
+}
+.footer-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1, 5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
 }
