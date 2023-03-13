@@ -62,12 +62,12 @@ ul {
 }
 
 /* button */
-.button-main {
+.navigation-button-main {
   background-color: var(--accent-color);
   color: var(--hero-text);
 }
 
-.button {
+.navigation-button {
   background-color: #f4f4fd;
   color: var(--accent-color);
   font-family: "roboto", sans-serif;
@@ -77,8 +77,8 @@ ul {
   letter-spacing: 0.04em;
   cursor: pointer;
 }
-.button .link:hover,
-.button .link:focus {
+.navigation-button-link:hover,
+.navigation-button-link:focus {
   color: #404bbf;
 }
 
