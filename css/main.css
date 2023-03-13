@@ -1,0 +1,54 @@
+:root {
+  --primary-text-color: #2e2f42;
+  --hero-text: #ffffff;
+  --accent-color: #4d5ae5;
+  --title-text-color: #434455;
+}
+
+body {
+  background-color: var(--hero-text);
+  color: var(--primary-text-color);
+}
+ul {
+  list-style: none;
+}
+
+/* Site nav */
+.logo {
+  color: var(--accent-color);
+}
+.logo.studio {
+  color: var(--primary-text-color);
+}
+.site-nav .link {
+  color: var(--primary-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
+/* Hero */
+.hero-title {
+  color: var(--hero-text);
+}
+
+/* button */
+.button {
+  background-color: var(--accent-color);
+  color: var(--hero-text);
+
+  position: absolute;
+  width: 169px;
+  height: 56px;
+  left: 636px;
+  top: 428px;
+}
+
+/* Section */
+.section-title {
+  color: var(--primary-text-color);
+}
