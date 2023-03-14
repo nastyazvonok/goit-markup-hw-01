@@ -66,6 +66,10 @@ ul {
 .header-cont-list .link {
   text-decoration: none;
 }
+.header-cont-list .link:hover,
+.header-cont-list .link:focus {
+  color: #404bbf;
+}
 .header-cont-list {
   font-weight: 400;
   font-size: 16px;
@@ -112,7 +116,7 @@ ul {
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
-.advantage-text {
+.advantage .text {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -160,6 +164,9 @@ ul {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--title-text-color);
+}
+.team .item {
+  color: var(--hero-text);
 }
 
 /* Footer */

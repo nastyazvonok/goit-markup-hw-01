@@ -66,6 +66,10 @@ ul {
 .header-cont-list .link {
   text-decoration: none;
 }
+.header-cont-list .link:hover,
+.header-cont-list .link:focus {
+  color: #404bbf;
+}
 .header-cont-list {
   font-weight: 400;
   font-size: 16px;
@@ -75,7 +79,7 @@ ul {
 }
 
 /* button */
-.navigation-button .link .main {
+.navigation .button .link .main {
   background-color: #f4f4fd;
   color: #4d5ae5;
   font-family: "Roboto";
@@ -86,7 +90,7 @@ ul {
   letter-spacing: 0.04em;
 }
 
-.navigation-button .link {
+.navigation .button .link {
   background-color: #f4f4fd;
   color: var(--accent-color);
   font-family: "Roboto";
@@ -96,8 +100,8 @@ ul {
   letter-spacing: 0.04em;
   cursor: pointer;
 }
-.navigation-button .link:hover,
-.navigation-button .link:focus {
+.navigation .button .link:hover,
+.navigation .button .link:focus {
   color: #404bbf;
 }
 
