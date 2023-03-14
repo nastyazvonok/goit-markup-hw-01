@@ -8,9 +8,8 @@
 body {
   background-color: var(--hero-text);
   color: var(--primary-text-color);
-  font-family: "roboto" , sans-serif; 
+  font-family: "Roboto", sans-serif;
   color: var(--title-text-color);
-  
 }
 ul {
   list-style: none;
@@ -20,20 +19,23 @@ ul {
 
 .logo {
   color: var(--accent-color);
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1, 17;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   flex: none;
+}
+.logo .link {
+  text-decoration: none;
 }
 .logo.studio {
   color: var(--primary-text-color);
   font-family: "Raleway";
   font-weight: 800;
   font-size: 18px;
-  line-height: 1, 17;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   flex: none;
@@ -48,7 +50,7 @@ ul {
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
-  color: #404BBF;
+  color: #404bbf;
 }
 .site-nav .link.current {
   color: var(--primary-text-color);
@@ -58,11 +60,23 @@ ul {
   letter-spacing: 0.02em;
   flex: none;
 }
-.header-address{
+.header-address {
   font-style: normal;
 }
-
+.header-cont-list .link {
+  text-decoration: none;
+}
+.header-cont-list {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--title-text-color);
+}
 /* Hero */
+.hero {
+  background-color: var(--primary-text-color);
+}
 .hero-title {
   color: var(--hero-text);
   background-color: var(--primary-text-color);
@@ -78,67 +92,68 @@ ul {
   background-color: var(--accent-color);
   color: var(--hero-text);
   position: absolute;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1, 5;
+  line-height: 1.5;
   letter-spacing: 0.04em;
+  cursor: pointer;
 }
 .button .link:hover,
-.button .link:focus{
-  color: var(--accent-color);
-}
+.button .link:focus {
+  color: #404bbf;
 }
 
 /* Section 2 */
-.advantage-title {
+.advantage .title {
   color: var(--primary-text-color);
   font-weight: 500;
   font-size: 20px;
-  line-height: 1,2;
+  line-height: 1.2;
   letter-spacing: 0.02em;
 }
-.advantage-text{
+.advantage-text {
   font-weight: 400;
-  line-height: 1,5;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--title-text-color);
-
 }
 /* Section 3 */
-.work-title{
+.work-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-
+  color: var(--primary-text-color);
 }
 
 /* Section 4 */
-.section-team{
-  background-color:  #F4F4FD;
+.section-team {
+  background-color: #f4f4fd;
 }
-.team-title{
+.team-title {
   font-weight: 700;
-font-size: 36px;
-line-height: 1.11;
-text-align: center;
-letter-spacing: 0.02em;
-text-transform: capitalize;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--primary-text-color);
 }
-.team-photo{
+.team-photo {
   background-color: var(--hero-text);
 }
-.team-item-title{
+.team-item-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   text-align: center;
   letter-spacing: 0.02em;
+  color: var(--primary-text-color);
 }
-.team-item-text{
+.team-item-text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -148,34 +163,32 @@ text-transform: capitalize;
 }
 
 /* Footer */
-.footer{
+.footer {
   background-color: var(--primary-text-color);
 }
-.footer-logo{
-  font-family: 'Raleway';
+
+.footer .link {
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--accent-color);
-
 }
-.footer-link{
-  text-decoration: none;
-}
-.footer-logo-studio{
+.footer-logo-studio {
   font-weight: 800;
-font-size: 18px;
-line-height: 1.17;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: #f4f4fd;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #f4f4fd;
 }
-.footer-text{
+.footer-text {
   font-weight: 400;
-font-size: 16px;
-line-height: 1,5;
-letter-spacing: 0.02em;
-color: #f4f4fd;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
 }
