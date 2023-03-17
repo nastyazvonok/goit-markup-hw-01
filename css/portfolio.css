@@ -89,7 +89,7 @@ ul {
 
 /* button */
 
-.navigation-button {
+.button .link {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -99,9 +99,13 @@ ul {
   background-color: #f4f4fd;
   color: var(--accent-color);
 }
-.navigation-button :hover,
-.navigation-button :focus {
+.button .link :hover,
+.button .link:focus {
   color: var(--hero-text);
+}
+.button .link :hover,
+.button .link :focus {
+  background-color: var(--button-hover-focus);
 }
 
 /* Portfolio */
