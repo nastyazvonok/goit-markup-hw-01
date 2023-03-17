@@ -51,6 +51,10 @@ ul {
   text-transform: uppercase;
   flex: none;
 }
+.logo .link:focus,
+.logo .link:focus {
+  color: var(--button-hover-focus);
+}
 .site-nav .link {
   color: var(--primary-text-color);
   font-weight: 500;
@@ -61,7 +65,7 @@ ul {
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
-  color: var(--button-hover-focus);
+  background-color: var(--button-hover-focus);
 }
 .site-nav .link.current {
   color: var(--primary-text-color);
@@ -88,30 +92,20 @@ ul {
 }
 
 /* button */
-.navigation-button .link {
-  background-color: #f4f4fd;
-  color: var(--accent-color);
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-}
 
-.navigation-button .link {
-  background-color: #f4f4fd;
-  color: var(--accent-color);
-  font-family: "Roboto";
+.navigation-button {
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
+  background-color: #f4f4fd;
+  color: var(--accent-color);
 }
-.navigation-button .link:hover,
-.navigation-button .link:focus {
-  color: var(--button-hover-focus);
+.navigation-button :hover,
+.navigation-button :focus {
+  color: var(--hero-text);
 }
 
 /* Portfolio */
