@@ -22,7 +22,7 @@ ul {
 }
 .link:hover,
 .link:focus {
-  color: var(--button-hover-focus);
+  background-color: var(--button-hover-focus);
 }
 
 /* Header */

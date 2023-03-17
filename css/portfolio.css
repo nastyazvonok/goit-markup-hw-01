@@ -22,7 +22,7 @@ ul {
 }
 .link:hover,
 .link:focus {
-  color: var(--button-hover-focus);
+  background-color: var(--button-hover-focus);
 }
 .navigation-button {
   cursor: pointer;
@@ -88,7 +88,7 @@ ul {
 }
 
 /* button */
-.navigation-button .link .main {
+.navigation-button .link {
   background-color: #f4f4fd;
   color: var(--accent-color);
   font-family: "Roboto";
