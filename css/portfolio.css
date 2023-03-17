@@ -20,10 +20,7 @@ ul {
 .link {
   text-decoration: none;
 }
-.link:hover,
-.link:focus {
-  background-color: var(--button-hover-focus);
-}
+
 .navigation-button {
   cursor: pointer;
 }
