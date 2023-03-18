@@ -56,7 +56,9 @@ ul {
   letter-spacing: 0.02em;
   flex: none;
 }
-.site-nav .link:hover,
+.site-nav .link:hover {
+  color: var(--button-hover-focus);
+}
 .site-nav .link:focus {
   color: var(--button-hover-focus);
 }
@@ -112,6 +114,7 @@ ul {
 .button .link:hover,
 .button .link:focus {
   color: var(--button-hover-focus);
+  background-color: var(--button-hover-focus);
 }
 
 /* Section 2 */
@@ -143,7 +146,7 @@ ul {
 .section-team {
   background-color: #f4f4fd;
 }
-.team .title {
+.team-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;

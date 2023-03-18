@@ -59,7 +59,9 @@ ul {
   letter-spacing: 0.02em;
   flex: none;
 }
-.site-nav .link:hover,
+.site-nav .link:hover {
+  color: var(--button-hover-focus);
+}
 .site-nav .link:focus {
   color: var(--button-hover-focus);
 }
@@ -67,7 +69,7 @@ ul {
   color: var(--primary-text-color);
   font-weight: 500;
   font-size: 16px;
-  line-height: 1, 5;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   flex: none;
 }
@@ -89,23 +91,24 @@ ul {
 
 /* button */
 
-.button .link {
+.nav-button {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  cursor: pointer;
   background-color: #f4f4fd;
   color: var(--accent-color);
+  cursor: pointer;
 }
 .button .link :hover,
 .button .link:focus {
   color: var(--hero-text);
 }
-.button .link :hover,
-.button .link :focus {
+.button:hover,
+.button:focus {
   background-color: var(--button-hover-focus);
+  color: var(--hero-text);
 }
 
 /* Portfolio */
