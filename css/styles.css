@@ -44,8 +44,10 @@ ul {
   text-transform: uppercase;
   flex: none;
 }
-.logo .link:focus,
 .logo .link:focus {
+  color: var(--button-hover-focus);
+}
+.logo .link:hover {
   color: var(--button-hover-focus);
 }
 .site-nav .link {
@@ -74,7 +76,9 @@ ul {
   font-style: normal;
 }
 
-.header-cont-list .link:hover,
+.header-cont-list .link:hover {
+  color: var(--button-hover-focus);
+}
 .header-cont-list .link:focus {
   color: var(--button-hover-focus);
 }
@@ -111,7 +115,10 @@ ul {
   color: var(--hero-text);
   position: absolute;
 }
-.button .link:hover,
+.button .link:hover {
+  color: var(--button-hover-focus);
+  background-color: var(--button-hover-focus);
+}
 .button .link:focus {
   color: var(--button-hover-focus);
   background-color: var(--button-hover-focus);
