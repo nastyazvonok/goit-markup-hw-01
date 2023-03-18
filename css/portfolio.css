@@ -61,9 +61,9 @@ ul {
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
-  background-color: var(--button-hover-focus);
+  color: var(--button-hover-focus);
 }
-.site-nav .link.current {
+.site-nav .link .current {
   color: var(--primary-text-color);
   font-weight: 500;
   font-size: 16px;

@@ -58,9 +58,9 @@ ul {
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
-  background-color: var(--button-hover-focus);
+  color: var(--button-hover-focus);
 }
-.site-nav .link.current {
+.site-nav .link .current {
   color: var(--primary-text-color);
   font-weight: 500;
   font-size: 16px;
@@ -88,26 +88,26 @@ ul {
   background-color: var(--primary-text-color);
 }
 .hero-title {
-  color: var(--hero-text);
-  background-color: var(--primary-text-color);
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
+  color: var(--hero-text);
+  background-color: var(--primary-text-color);
 }
 
 /* button */
 .button {
-  background-color: var(--accent-color);
-  color: var(--hero-text);
-  position: absolute;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
+  background-color: var(--accent-color);
+  color: var(--hero-text);
+  position: absolute;
 }
 .button .link:hover,
 .button .link:focus {
