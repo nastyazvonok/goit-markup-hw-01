@@ -115,10 +115,10 @@ ul {
   color: var(--hero-text);
   position: absolute;
 }
-.button-hero .link:hover {
+.button-hero :hover {
   background-color: var(--button-hover-focus);
 }
-.button-hero .link:focus {
+.button-hero :focus {
   background-color: var(--button-hover-focus);
 }
 
