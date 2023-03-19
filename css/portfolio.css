@@ -61,10 +61,10 @@ ul {
   letter-spacing: 0.02em;
   flex: none;
 }
-.item .link:hover {
+.site-nav .link:hover {
   color: var(--button-hover-focus);
 }
-.item .link:focus {
+.site-nav .link:focus {
   color: var(--button-hover-focus);
 }
 .site-nav .link .current {
@@ -79,10 +79,10 @@ ul {
   font-style: normal;
 }
 
-.header-cont-list .link:hover {
+.cont-nav .link:hover {
   color: var(--button-hover-focus);
 }
-.header-cont-list .link:focus {
+.cont-nav .link:focus {
   color: var(--button-hover-focus);
 }
 .header-cont-list {
