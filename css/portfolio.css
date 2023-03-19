@@ -61,10 +61,10 @@ ul {
   letter-spacing: 0.02em;
   flex: none;
 }
-.site-nav .link:hover {
+.item .link:hover {
   color: var(--button-hover-focus);
 }
-.site-nav .link:focus {
+.item .link:focus {
   color: var(--button-hover-focus);
 }
 .site-nav .link .current {
