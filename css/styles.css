@@ -5,7 +5,6 @@
   --title-text-color: #434455;
   --button-hover-focus: #404bbf;
 }
-
 body {
   background-color: var(--hero-text);
   color: var(--primary-text-color);
@@ -17,12 +16,11 @@ ul {
   margin: 0;
   padding: 0;
 }
-.link {
+link {
   text-decoration: none;
 }
 
-/* Header */
-
+/************************* Header *************************/
 .logo {
   color: var(--accent-color);
   font-family: "Raleway", sans-serif;
@@ -33,10 +31,9 @@ ul {
   text-transform: uppercase;
   flex: none;
 }
-
 .logo.studio {
   color: var(--primary-text-color);
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -54,7 +51,7 @@ ul {
   color: var(--primary-text-color);
   font-weight: 500;
   font-size: 16px;
-  line-height: 1, 5;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   flex: none;
 }
@@ -72,10 +69,6 @@ ul {
   letter-spacing: 0.02em;
   flex: none;
 }
-.header-address {
-  font-style: normal;
-}
-
 .cont-nav .link:hover {
   color: var(--button-hover-focus);
 }
@@ -83,18 +76,17 @@ ul {
   color: var(--button-hover-focus);
 }
 .header-cont-list {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--title-text-color);
 }
-/* Hero */
+
+/* ************************ Hero *************************/
 .hero {
   background-color: var(--primary-text-color);
 }
 .hero-title {
-  font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
@@ -103,14 +95,13 @@ ul {
   background-color: var(--primary-text-color);
 }
 
-/* button */
+/************************* Button *************************/
 .button-hero {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  cursor: pointer;
   background-color: var(--accent-color);
   color: var(--hero-text);
   position: absolute;
@@ -122,7 +113,7 @@ ul {
   background-color: var(--button-hover-focus);
 }
 
-/* Section 2 */
+/************************* Section 2 *************************/
 .advantage .title {
   color: var(--primary-text-color);
   font-weight: 500;
@@ -131,14 +122,13 @@ ul {
   letter-spacing: 0.02em;
 }
 .advantage .text {
-  font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--title-text-color);
 }
-/* Section 3 */
+
+/************************* Section 3 *************************/
 .work-title {
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -147,12 +137,11 @@ ul {
   color: var(--primary-text-color);
 }
 
-/* Section 4 */
+/************************* Section 4 *************************/
 .section-team {
   background-color: #f4f4fd;
 }
 .team-title {
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -172,7 +161,6 @@ ul {
   color: var(--primary-text-color);
 }
 .team-item-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   text-align: center;
@@ -183,11 +171,10 @@ ul {
   background-color: var(--hero-text);
 }
 
-/* Footer */
+/***************************** Footer *****************************/
 .footer {
   background-color: var(--primary-text-color);
 }
-
 .footer .link {
   text-decoration: none;
   font-family: "Raleway", sans-serif;
@@ -207,9 +194,46 @@ ul {
   color: #f4f4fd;
 }
 .footer-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+}
+
+/***************************Portfolio  ****************************/
+
+/* button */
+
+.nav-button {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  background-color: #f4f4fd;
+  color: var(--accent-color);
+}
+
+.nav-button:hover {
+  background-color: var(--button-hover-focus);
+  color: var(--hero-text);
+}
+.nav-button:focus {
+  background-color: var(--button-hover-focus);
+  color: var(--hero-text);
+}
+
+/* Portfolio */
+
+.works-item-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+.works-item-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--title-text-color);
 }
