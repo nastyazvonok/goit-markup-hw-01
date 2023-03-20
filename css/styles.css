@@ -16,7 +16,7 @@ ul {
   margin: 0;
   padding: 0;
 }
-link {
+.link {
   text-decoration: none;
 }
 
@@ -81,6 +81,9 @@ link {
   letter-spacing: 0.02em;
   color: var(--title-text-color);
 }
+.header-address {
+  font-style: normal;
+}
 
 /* ************************ Hero *************************/
 .hero {
@@ -105,6 +108,7 @@ link {
   background-color: var(--accent-color);
   color: var(--hero-text);
   position: absolute;
+  cursor: pointer;
 }
 .button-hero:hover {
   background-color: var(--button-hover-focus);
@@ -206,11 +210,13 @@ link {
 
 .nav-button {
   font-family: "Roboto", sans-serif;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   background-color: #f4f4fd;
   color: var(--accent-color);
+  cursor: pointer;
 }
 
 .nav-button:hover {
